@@ -21,14 +21,8 @@
         "default_title": "drip-search"
     },
     "commands": {
-        "_execute_browser_action": {
-            "suggested_key": {
-                "windows": "Ctrl+Shift+S",
-                "mac": "Command+Shift+S",
-                "chromeos": "Ctrl+Shift+U",
-                "linux": "Ctrl+Shift+J"
-            },
-            "description": "Shortcut key to drip"
+        "pastYear": {
+            "description": "Filter search results by date"
         }
     },
     "permissions": [
