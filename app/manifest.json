@@ -23,6 +23,9 @@
     "commands": {
         "pastYear": {
             "description": "Filter search results by date"
+        },
+        "imageSearch": {
+            "description": "Switch to google search image"
         }
     },
     "permissions": [
