@@ -14,6 +14,13 @@ chrome.commands.onCommand.addListener(function (command) {
                     var newUrl = tab.url + '&tbm=isch'
                     chrome.tabs.update(tab.id, {url: newUrl});
                     break;
+                case 'twoYearsAgo':
+                    var today = new Date();
+                    var twoYearsAgo = today.getFullYear() - 2;
+                    var thisMonth = today.getMonth()+1;
+                    var newUrl = tab.url + "&tbs=cdr%3A1%2Ccd_min%3A" + twoYearsAgo +"%2F" + thisMonth + "%2F" + today.getDate();
+                    chrome.tabs.update(tab.id, {url: newUrl});
+                    break;
             }
         }
     })

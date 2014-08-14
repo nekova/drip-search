@@ -22,7 +22,10 @@
     },
     "commands": {
         "pastYear": {
-            "description": "Filter search results by date"
+            "description": "Filter search results by 'past year'"
+        },
+        "twoYearsAgo": {
+            "description": "Filter search results by '2 years ago'"
         },
         "imageSearch": {
             "description": "Switch to google search image"
