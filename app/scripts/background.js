@@ -1,6 +1,6 @@
 'use strict';
 
-var GOOGLE_URL = new RegExp("^http(s)?:\/\/www\.google\.[a-z.]+\/(?:webhp)?(?:search|#)(?:\\?)?q=.*");
+var GOOGLE_URL = new RegExp("^http(s)?:\/\/www\.google\.[a-z.]+\/(?:webhp)?(?:search|(.*)#)(?:\\?)?q=.*");
 
 chrome.commands.onCommand.addListener(function (command) {
     chrome.tabs.getSelected(null, function(tab){
