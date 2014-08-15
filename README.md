@@ -1,5 +1,5 @@
 #drip-search
-A chrome-extension to filter search results by "past year".
+A chrome-extension to filter search results by date.
 
 ![](/app/images/drip-search.gif)
 
@@ -16,8 +16,16 @@ Go to ```chrome://extensions/``` and scroll down to the bottom of the page.
 I set `Command+Shift+S` as a filtering command.
 
 ##Example
+###pastYear
 ```
 https://www.google.com/#q=news
 ↓
 https://www.google.com/#q=news&tbs=qdr:y
+```
+
+###twoYearsAgo
+```
+https://www.google.com/#q=news
+↓
+https://www.google.com/#q=news&tbs=cdr%3A1%2Ccd_min%3A2012%2F01%2F01
 ```
