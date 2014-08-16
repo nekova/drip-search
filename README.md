@@ -1,7 +1,6 @@
 #drip-search
 A chrome-extension to filter search results by date.
 
-![](/app/images/drip-search.gif)
 
 ##Usage
 Install via Chrome Web Store.
@@ -17,6 +16,8 @@ I set `Command+Shift+S` as a filtering command.
 
 ##Example
 ###pastYear
+![](/app/images/drip-search.gif)
+
 ```
 https://www.google.com/#q=news
 ↓
@@ -24,6 +25,8 @@ https://www.google.com/#q=news&tbs=qdr:y
 ```
 
 ###twoYearsAgo
+![](/app/images/twoYearsAgo.gif)
+
 ```
 https://www.google.com/#q=news
 ↓
