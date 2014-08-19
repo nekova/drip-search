@@ -12,7 +12,10 @@ You need to set a keyboard shortcut **manually**.
 
 Go to ```chrome://extensions/``` and scroll down to the bottom of the page.
 
-I set `Command+Shift+S` as a filtering command.
+I set
+pastYear: `Command+Shift+S`,  
+twoYearsAgo: `Command+Shift+A`
+as a filtering command.
 
 ##Example
 ###pastYear
