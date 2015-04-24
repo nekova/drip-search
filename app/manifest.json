@@ -1,10 +1,11 @@
 {
     "name": "drip-search",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "manifest_version": 2,
     "description": "Filter your search results by 'past year'",
     "icons": {
         "16": "images/icon-16.png",
+        "48": "images/icon-48.ping",
         "128": "images/icon-128.png"
     },
     "default_locale": "en",
