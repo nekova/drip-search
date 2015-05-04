@@ -27,9 +27,6 @@
         },
         "twoYearsAgo": {
             "description": "Filter search results by '2 years ago'"
-        },
-        "imageSearch": {
-            "description": "Switch to google search image"
         }
     },
     "permissions": [
