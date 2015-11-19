@@ -1,5 +1,5 @@
 #drip-search
-A chrome-extension to filter search results by date.
+☕ A chrome-extension to filter search results by date.
 
 
 ##Usage
@@ -13,8 +13,8 @@ You need to set a keyboard shortcut **manually**.
 Go to ```chrome://extensions/``` and scroll down to the bottom of the page.
 
 I set
-pastYear: `Command+Shift+S`,  
-twoYearsAgo: `Command+Shift+A`
+pastYear: `Command+Shift+A`,  
+twoYearsAgo: `Command+Shift+K`
 as a filtering command.
 
 ##Example
