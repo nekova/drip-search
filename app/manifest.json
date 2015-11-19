@@ -11,15 +11,8 @@
     "default_locale": "en",
     "background": {
         "scripts": [
-            "scripts/background.js"
+            "lib/background/index.js"
         ]
-    },
-    "browser_action": {
-        "default_icon": {
-            "19": "images/icon-19.png",
-            "38": "images/icon-38.png"
-        },
-        "default_title": "drip-search"
     },
     "commands": {
         "pastYear": {
