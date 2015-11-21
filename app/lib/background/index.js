@@ -1,6 +1,6 @@
 'use strict';
 
-let GOOGLE_URL = new RegExp('^http(s)?:\/\/www.google.[a-z.]+\/(?:webhp)?(?:search|(.*)#)(?:\\?)?q=.*');
+let GOOGLE_URL = new RegExp('^http(s)?:\/\/www.google.[a-z.]+\/(?:webhp)?(?:search|(.*)#)');
 chrome.commands.onCommand.addListener(command => {
     chrome.tabs.getSelected(null, tab => {
         if (GOOGLE_URL.test(tab.url)) {
